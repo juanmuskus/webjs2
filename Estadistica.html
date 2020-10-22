@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/Estadistica.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+      google.charts.load('current', {packages: ['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+     
+    </script>
+</head>
+<body>
+    <div>
+        <p>Estadistica</p>
+        <hr>
+        </div>
+<p>Resistencia <input type="number" name="" id="Resistencia" style="margin-left: 50px;"></p>
+<p>Nucleos <input type="number" name="" id="Nucleo" style="margin-left: 74px;"></p>
+<p>Disparadores <input type="number" name="" id="Disparadores" style="margin-left: 35px;"></p>
+<p>Rieles<input type="number" name="" id="Rieles" style="margin-left: 90px;"></p>
+<p>Chips <input type="number" name="" id="Chips" style="margin-left: 88px;"></p>
+<p>Fuentes <input type="number" name="" id="Fuentes" style="margin-left: 70px;"></p>
+<button class="button" style="margin-left:80px;" onclick="Estadistica()">Calcular</button>
+
+
+
+<div id='Muestra' style="height: 600px; margin-top: 0px;"></div>
+   
+</body>
+</html>

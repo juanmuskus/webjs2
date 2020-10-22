@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/Resistencia.js"></script>
+</head>
+
+<body>
+    <div style="float: left;">
+        <p>Resistencias eléctricas </p>
+        <hr>
+        <p>1° Banda <select name="" id="pr" style="margin-left:120px">
+
+                <option hidden selected>Seleccione valor</option>
+                <option value="0">Negro</option>
+                <option value="1">Cafe</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Verde</option>
+                <option value="6">Azul</option>
+                <option value="7">Violeta</option>
+                <option value="8">Gris</option>
+                <option value="9">Blanco</option>
+            </select></p>
+        <p>2° Banda <select name="" id="seg" style="margin-left:120px">
+
+                <option hidden selected>Seleccione valor</option>
+                <option value="0">Negro</option>
+                <option value="1">Cafe</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Verde</option>
+                <option value="6">Azul</option>
+                <option value="7">Violeta</option>
+                <option value="8">Gris</option>
+                <option value="9">Blanco</option>
+            </select></p>
+        <p>3° Banda <select name="" id="mul" style="margin-left:120px">
+
+                <option hidden selected>Seleccione valor</option>
+                <option value="1">Negro</option>
+                <option value="10">Cafe</option>
+                <option value="100">Rojo</option>
+                <option value="1000">Naranja</option>
+                <option value="10000">Amarillo</option>
+                <option value="100000">Verde</option>
+                <option value="1000000">Azul</option>
+                <option value="10000000">Violeta</option>
+                <option value="100000000">Gris</option>
+                <option value="1000000000">Blanco</option>
+            </select></p>
+        <p>Valor de la resistencia
+            <input type="number" style="margin-left: 30px" disabled id="showR"> Ohmios</p>
+        <button class="button" style="margin-left:80px;" onclick="Resistencia()">Calcular</button>
+    </div>
+    <div style=" float: right;">
+        <img src="img/Resistencias.jpg" alt="" width="90%" style="margin-left: 5px;">
+    </div>
+
+</body>
+
+</html>
